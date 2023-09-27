@@ -211,7 +211,7 @@ a {
     margin: 20px auto 0;
     width: 459px;
     max-width: 100%;
-    color: #5a6473;
+    color: #7d8589;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
@@ -561,7 +561,6 @@ a {
 
 .subcription .body .image {
     position: absolute;
-    top: -40px;
     bottom: 0;
     right: 221px;
 }
