@@ -58,7 +58,15 @@ a {
 }
 
 /* ========== Header ============== */
-.header {
+.fixed-header {
+    z-index: 1;
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+}
+
+.hero-wrap {
     position: relative;
     background: #e6f0ff;
     height: 100vh;
@@ -67,7 +75,9 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
+    height: 100%;
 }
 
 .navbar ul {
@@ -103,7 +113,7 @@ a {
 }
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .info {
@@ -196,7 +206,7 @@ a {
 }
 
 .clients .images a:nth-child(3):hover {
-    box-shadow: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 }
 
